@@ -1,0 +1,78 @@
+<div class="container-fluid">
+    <div class="jumbotron hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 jumbologo">
+                    <h2>Spaceship <span>Samurai</span></h2>
+                </div>
+                <div class="col-md-7 visible-md visible-lg">
+                    <blockquote>
+                        <p>
+                            Even if it seems certain that you will lose, retaliate.
+                            Neither wisdom nor technique has a place in this.
+                            A real man does not think of victory or defeat.
+                            He plunges recklessly towards an irrational death.
+                            By doing this, you will awaken from your dreams
+                        </p>
+                        <footer>Yamamoto Tsunetomo, <i>Hagakure: The Book of the Samurai</i></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Videos</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row" ng-repeat="video in videos" style="margin-bottom: 10px">
+                        <div class="col-md-5">
+                            <img class="img-rounded" src="{{ video.thumbnail }}" alt="{{ video.title }}" title="{{ video.title }}"></image>
+                        </div>
+                        <div class="col-md-7">
+                            {{video.title}}<br/>
+                            {{video.published}}<br/>
+                            <a class="btn btn-default btn-sm" href="http://youtu.be/{{ video.id }}" target="_blank" style="margin-top: 10px">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Corporations</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12" ng-repeat="corp in corporations" style="margin-top: 10px;">
+                            <img class="img-rounded" src="//image.eveonline.com/Corporation/{{ corp.id }}_64.png" title="{{ corp.name }}" alt="{{ corp.name }}"></image>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Contacts</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row" ng-repeat="contact in contacts" style="margin-top: 10px">
+                        <div class="col-md-4">
+                            <img class="img-rounded" src="//image.eveonline.com/Character/{{ contact.id }}_64.jpg" alt="{{ contact.name }}" title="{{ contact.name }}"></img>
+                        </div>
+                        <div class="col-md-8">
+                            <b>{{ contact.name }}</b></br>
+                            <i>{{ contact.title }}</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
