@@ -59,7 +59,7 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
         },
 		{
 			id: 98020221,
-			name: Shattered Void
+			name: 'Shattered Void'
 		},
         {
             id: 692190945,
