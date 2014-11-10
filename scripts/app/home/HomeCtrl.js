@@ -8,21 +8,21 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
         {
             id: 1694010657,
             name: 'Securitas Protector',
-            title: 'Alliance CEO'
+            title: 'Alliance Exec.'
         },
         {
             id: 92940230,
             name: 'Xeron Vann',
-            title: 'Alliance Diplomat Director'
-        },
-        {
-            id: 93670403,
-            name: 'Gav Davies',
-            title: 'Military Director'
+            title: 'Diplomacy Director'
         },
         {
             id: 335025985,
             name: 'Ganja Lotus',
+            title: 'Military Director'
+        },
+		{
+            id: 93670403,
+            name: 'Gav Davies',
             title: 'Co. Military Director'
         },
         {
@@ -42,12 +42,12 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
             name: 'Gallente Volunteer Defense Forces'
         },
         {
-            id: 98041262,
-            name: 'Community against Justice'
+            id: 98161636,
+            name: 'Physics Says No'
         },
         {
-            id: 252518756,
-            name: 'The Inf1dels'
+            id: 98041262,
+            name: 'Community against Justice'
         },
         {
             id: 851230678,
@@ -57,45 +57,21 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
             id: 555073675,
             name: 'The Green Cross'
         },
-        {
-            id: 1201027318,
-            name: 'Lai Dai Solutions'
-        },
-        {
-            id: 1747096465,
-            name: 'Flailing Manmeat'
-        },
-        {
-            id: 98161636,
-            name: 'Physics Says No'
-        },
+		{
+			id: 98020221,
+			name: Shattered Void
+		},
         {
             id: 692190945,
             name: 'Shinigami Miners'
-        },
-        {
-            id: 98253652,
-            name: 'Pony Up Freight Ltd.'
         },
         {
             id: 98097817,
             name: 'Concordiat'
         },
         {
-            id: 98272369,
-            name: 'Truly Transdimensional'
-        },
-        {
             id: 98285822,
             name: 'Anime Masters'
-        },
-        {
-            id: 98287113,
-            name: 'Space - The Final Frontier'
-        },
-        {
-            id: 98112705,
-            name: 'Unsung Heroes'
         },
         {
             id: 98124232,
@@ -104,10 +80,6 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
         {
             id: 98309567,
             name: 'Aerospace Fencing'
-        },
-        {
-            id: 98314963,
-            name: 'Cool Kids Club'
         },
         {
             id: 98197104,
@@ -124,10 +96,6 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
         {
             id: 98320400,
             name: 'Discharging Demeanor Solutions'
-        },
-        {
-            id: 98324550,
-            name: 'Borealis Academy'
         },
         {
             id: 98339677,
