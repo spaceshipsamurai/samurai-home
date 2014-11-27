@@ -70,6 +70,10 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
             name: 'Concordiat'
         },
         {
+            id: 98127611,
+            name: 'Quantum Reality R n D'
+        },
+        {
             id: 98285822,
             name: 'Anime Masters'
         },
