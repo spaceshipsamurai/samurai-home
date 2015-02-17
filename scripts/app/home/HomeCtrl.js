@@ -11,40 +11,23 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
             title: 'Alliance Exec.'
         },
         {
+            id: 92988604,
+            name: 'Aben Sokoln',
+            title: '2nd in command'
+        },
+        {
             id: 92940230,
             name: 'Xeron Vann',
             title: 'Diplomacy Director'
         },
         {
-            id: 335025985,
-            name: 'Ganja Lotus',
-            title: 'Military Director'
-        },
-		{
-            id: 93670403,
-            name: 'Gav Davies',
-            title: 'Co. Military Director'
-        },
-        {
-            id: 618402478,
-            name: 'Reuben Blackfeather',
+            id: 92507729,
+            name: 'Dex Thiesant',
             title: 'IT Director'
         }
     ];
 
     $scope.corporations = [
-        {
-            id: 98007439,
-            name: 'Ethereal Vengeance'
-        },
-        {
-            id: 98019237,
-            name: 'Gallente Volunteer Defense Forces'
-        },
-        {
-            id: 98161636,
-            name: 'Physics Says No'
-        },
         {
             id: 98041262,
             name: 'Community against Justice'
@@ -57,10 +40,6 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
             id: 555073675,
             name: 'The Green Cross'
         },
-		{
-			id: 98020221,
-			name: 'Shattered Void'
-		},
         {
             id: 692190945,
             name: 'Shinigami Miners'
@@ -70,40 +49,8 @@ angular.module('ssHome').controller('HomeCtrl', function($scope, ssYoutubeFeed) 
             name: 'Concordiat'
         },
         {
-            id: 98127611,
-            name: 'Quantum Reality R n D'
-        },
-        {
-            id: 98285822,
-            name: 'Anime Masters'
-        },
-        {
-            id: 98124232,
-            name: 'Caveat Emptor Technologies LP'
-        },
-        {
-            id: 98309567,
-            name: 'Aerospace Fencing'
-        },
-        {
-            id: 98197104,
-            name: 'Concordiat Industries'
-        },
-        {
             id: 98189045,
             name: 'Pax Capital'
-        },
-        {
-            id: 98319878,
-            name: 'Only Fools and Horses'
-        },
-        {
-            id: 98320400,
-            name: 'Discharging Demeanor Solutions'
-        },
-        {
-            id: 98339677,
-            name: 'The Contract Bureau'
         }
     ];
 
